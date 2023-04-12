@@ -1,32 +1,39 @@
 @charset "UTF-8";
+:root{
+    --cor1:#4e5ffc;
+    --cor2:#0316c7;
+}
 body{
-    background-image: linear-gradient(60deg,
-    #7b89ff,#4e5ffc,#0316c7
-    );
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 39;
-    background-attachment: fixed;
+    background-color:rgba(128, 128, 128, 0.616);
     
 }
-p{
-    text-align: justify;
-}
-
-main{
-    background-image: linear-gradient(60deg,#97a1fe,#7b89ff,#4e5ffc)
-    ;
-    width: 600px;
-    border-radius: 13px;
+nav{
+    width: 79vw;
+    background-image: url("imagens/wallpaper006.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: auto;
-    box-shadow: 10px 10px 10px #0317c7d2;
+    background-attachment: fixed;
+    padding: 4px;
+    border-radius: 12px;
+
 }
-h1{color: #bf9e27; 
-text-shadow: 2px 2px 2px #000000;}
-h2{
-    color: #d6ae1d;
-    text-shadow: 2px 2px 2px black;
+nav > h1{
+    text-align: center;
+    color: rgba(79, 96, 252, 0.555);
+    font-size: 5vw;
 }
-h3{
-    color: #F2C830;
-    text-shadow: 2px 2px 2px black;
+nav  a{
+    text-decoration: none;
+    margin-left: 23px;
+    color: rgb(18, 18, 206);
+    transition: 1.7s;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    padding: 0px 6px ;
+    border-radius: 10px 5px 10px 5px ;
+    
+}
+ nav a:hover{
+    color:rgba(128, 128, 128, 0.774);
+    background-color: #4e5ffc33;
 }
