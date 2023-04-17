@@ -4,7 +4,7 @@
     --cor2:#0316c7;
 }
 body{
-    background-color:rgba(128, 128, 128, 0.616);
+    background-color:rgba(128, 128, 128, 0.575);
     position: relative;
 }
 div#cabeça{
@@ -41,8 +41,8 @@ section{
 .rolar2{
     text-align: right;
     position: absolute;
-    bottom: 20%;
-    right: 4%;
+    bottom: 15%;
+    right: 8%;
     
     
 }
@@ -83,4 +83,67 @@ div#cd a img{
 }
 main{
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("imagens/Grey\ but\ beauty.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 2px;
+}
+
+main  h1{
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+}
+section{
+    margin: auto;
+    width: 89vw;
+    background-image: url("imagens/cinza.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:rgba(231, 225, 212, 0.877);
+    border-radius: 7px;
+    padding: 0px;
+
+}
+section h2{
+    text-align: left;
+    padding-top: 4px;
+    margin-left: 12px;
+    font-size: 16px;
+}
+section p{
+    text-align: left;
+    margin-left: 22px;
+    margin-top: 2px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 12.3px;
+}
+section a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.514);
+}
+article{
+    background-color: rgba(255, 255, 255, 0.61);
+    text-align: center;
+    width: 81vw;
+    margin: auto;
+    border-radius: 4px;
+    padding:7px 0px;
+    box-shadow: 1px 1px 5px 1px black;
+}
+aside{
+    background-color: rgba(255, 255, 255, 0.61);
+    text-align: center;
+    width: 81vw;
+    margin: auto;
+    border-radius: 4px;
+    padding:7px 0px;
+    box-shadow: 1px 1px 5px 1px black;
+}
+aside a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.514);
 }
