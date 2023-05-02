@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste formulario.</h1>
+    <form action="cadrastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iusu">Usuario:</label>
+            <input type="text" name="usu" id="iusu" required size="11" placeholder="Nome do usuario" autocomplete="username">
+        </p>
+        <p>
+            <label for="ise">Senha:  </label>
+            <input  type="password" name="senha" id="ise" required minlength="7" maxlength="20" size="12" placeholder="min 8 letras" autocomplete="current-password">
+
+        </p>
+        <p><input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
