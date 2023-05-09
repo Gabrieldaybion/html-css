@@ -76,8 +76,9 @@ main > h1{
 }
 div.principal{
     width: 85vw;
-    height: 45vh;
+    height: 34vh;
     margin-top: 4px;
+    
 }
 div.ftx{
     width: 78vw;
@@ -88,10 +89,13 @@ div.ftx{
     background-attachment: fixed;
     padding: 25px;
     margin: auto;
+    box-shadow: 1px 1px 6px 1px black;
+    border-radius: 12px;
 }
 img{
     width: 80px;
     margin-right: 14px;
+    border-radius: 6px 0px 0px 0px ;
 
 
 }
@@ -108,7 +112,9 @@ img#mm{
  div#cor2{
     background-color: #a6917765;
     width:75vw ;
-    
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 6px 1px black;
+
  }
 
 footer{
