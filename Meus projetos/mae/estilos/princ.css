@@ -60,9 +60,39 @@ nav h1{
         opacity: 1;
     }
 }
+
+
+
 main{
+    margin: auto;
+    width:91vw ;
+    background-color: var(--cor0);
+    margin-top: 23px
+}
+main h1{
+    color: #1b0e02;
+    text-align: center
+}
+div.principal{
+    width: 35vw;
+    height: 45vh;
+}
+div.ftx{
+    background-image: url(../imagens/fundo\ div.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-attachment: fixed;
+    padding: 20px;
+}
+img{
+    width: 75px;
 
 }
+ p.tf{
+    display: inline;
+ }
+
 footer{
 
 }
