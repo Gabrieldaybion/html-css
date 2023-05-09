@@ -69,28 +69,45 @@ main{
     background-color: var(--cor0);
     margin-top: 23px
 }
-main h1{
+main > h1{
+   
     color: #1b0e02;
     text-align: center
 }
 div.principal{
-    width: 35vw;
+    width: 85vw;
     height: 45vh;
+    margin-top: 4px;
 }
 div.ftx{
+    width: 78vw;
     background-image: url(../imagens/fundo\ div.jpeg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     background-attachment: fixed;
-    padding: 20px;
+    padding: 25px;
+    margin: auto;
 }
 img{
-    width: 75px;
+    width: 80px;
+    margin-right: 14px;
 
+
+}
+img#mm{
+    margin-top: 23px;
+    width: 120px;
+    margin-right: 14px;
+    margin-bottom: 14px;
 }
  p.tf{
     display: inline;
+    position: absolute;   
+ }
+ div#cor2{
+    background-color: #a6917765;
+    width:75vw ;
  }
 
 footer{
