@@ -30,9 +30,14 @@ nav{
     background-attachment: fixed;
     padding: 50px;
     margin: auto;
-    margin-top: 12px;
+    margin-top: 10px;
     border-radius: 15px;
     box-shadow: 2px 1px 13px 1px black;
+}
+div#cor{
+    margin: auto;
+    width: 62vw;
+    background-color: #a6917744;
 }
 nav h1{
     text-align: center ;
