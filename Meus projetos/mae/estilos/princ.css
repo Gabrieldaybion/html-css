@@ -74,6 +74,9 @@ main > h1{
     color: #1b0e02;
     text-align: center
 }
+main  p{
+   font-size: 13.3px;
+}
 div.principal{
     width: 85vw;
     height: 31vh;
