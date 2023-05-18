@@ -1,0 +1,59 @@
+@charset "UTF-8";
+:root{
+    --azul0:#8f96ffdc;
+    --azul1:#4753EE;
+    --azul2:#010FEA;
+    --azul3:#00076B;
+    --azul4:#20256B;
+    --cinza:rgba(112, 112, 112, 0.856);
+    --fonte:Arial,Verdana,Helvetica,sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+
+}
+main{
+
+}
+div#ftx{
+    
+    text-align: center;
+}
+div.buni{
+    display: inline-block;
+    margin-left: 24px;
+    
+}
+h1#tt{
+    display: block;
+    margin: auto;
+    color: #20256B;
+    background-color: #8f96ffdc ;
+    width: 310px;
+    height: 35px;
+
+}
+h1#tt::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+@keyframes pisca {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+footer{
+
+}
