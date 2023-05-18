@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulario</title>
+</head>
+<body>
+    <h1>Em manutenção.</h1>
+    <form action="cadrastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imm"><label for="imm">Masculino</label> <br>
+            <input type="radio" name="sexo" id="ifm"><label for="ifm">Feminino</label><br>
+            <input type="radio" name="sexo" id="isem"><label for="isem">Prefiro não informar.</label>
+            <!-- Os radio botons precisa ter o mesmo(NAME) e não o mesmo (ID). -->
+        </fieldset>
+        <fieldset>
+            <legend>Jogos favoritos</legend>
+            <input type="checkbox" name="egta" id="igta"><label for="igta">GTA 5</label> <br>
+            <input type="checkbox" name="er6" id="ir6"><label for="ir6">Rainbow six siege </label><br>
+            <input type="checkbox" name="emine" id="imine"><label for="imine">Minecraft</label> <br>
+            <input type="checkbox" name="elego" id="ilego"><label for="ilego">LEGO star wars 2(ps2)</label> <br>
+            <input type="checkbox" name="etk" id="itk"><label for="itk">Tekken 5</label>
+
+        </fieldset>
+        <p><input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+    </form>
+</body>
+</html>
