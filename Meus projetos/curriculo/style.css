@@ -1,10 +1,10 @@
 @charset "UTF-8";
 :root{
-    --azul0:#8f96ffdc;
-    --azul1:#4753EE;
-    --azul2:#010FEA;
-    --azul3:#00076B;
-    --azul4:#20256B;
+    --azul0:#FFFFE1;
+    --marrom1:#d6d6be;
+    /* --marrom2:;
+    --marrom3:; */
+    --marrom4:#190504;
     --cinza:rgba(112, 112, 112, 0.856);
     --fonte:Arial,Verdana,Helvetica,sans-serif;
 }
@@ -12,16 +12,21 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    
+    
 }
 header{
-
-}
-main{
-
+    
+    background: #6e6e6e;
+    height: 170px;
+    
 }
 div#ftx{
-    
     text-align: center;
+    
 }
 div.buni{
     display: inline-block;
@@ -31,10 +36,10 @@ div.buni{
 h1#tt{
     display: block;
     margin: auto;
-    color: #20256B;
-    background-color: #8f96ffdc ;
-    width: 310px;
-    height: 35px;
+    margin-left: 0px;
+    
+    width: 250px;
+    height: 33px;
 
 }
 h1#tt::after{
@@ -52,6 +57,91 @@ h1#tt::after{
     }
     100%{
         opacity: 1;
+    }
+}
+main{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:#302726;
+}
+.card{
+    position: relative;
+    background-color: #190504;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    
+}
+.card span:first-of-type{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1.8px;
+    background: linear-gradient(to right,  transparent, red);
+    animation: animar1 2s linear infinite;
+}
+@keyframes animar1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+.card span:nth-of-type(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1.8px;
+    height: 100%;
+    background: linear-gradient(to bottom,  transparent, red);
+    animation: animar2 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animar2{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
+.card span:nth-of-type(3){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1.8px;
+    background: linear-gradient(to left,  transparent, red);
+    animation: animar3 2s linear infinite;
+}
+@keyframes animar3{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.card span:nth-of-type(4){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1.8px;
+    height: 100%;
+    background: linear-gradient(to top,  transparent, red);
+    animation: animar4 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animar4{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%);
     }
 }
 footer{
