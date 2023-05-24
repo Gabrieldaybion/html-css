@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* Todas as de mais midias */
+/* [Typical Device Breakpontis] sempre pesquisar sobre pois está smpre mudando as resoluções.
+pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet:769px até 992px
+Pc: 992px até 1200
+Grandes telas: Acima de 1200px. */
+@media print{
+    body{
+        background-image: url(../imagens/back-print.jpg);/* Desnecessario  */
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border:2px solid black
+    }
+    main::after{
+        content: 'Esssa impreção foi feita pelo site Daybion.com';
+    }
+    main h1{
+        box-shadow: none;
+        text-shadow: none;
+        color:black
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#tv{display: none;}
+    img#print{display: block;}
+    img#pc{display: none;}
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    /* Tablet */
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: block;}
+    img#tv{display: none;}
+    img#print{display: none;}
+    img#pc{display: none;}
+}
+@media screen and (min-width:769px ) and (max-width:1025px) {
+    /* Pc */
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+        img#phone{display: none;}
+        img#tablet{display: none;}
+        img#tv{display: none;}
+        img#print{display: none;}
+        img#pc{display: block;}
+}
+@media screen and (min-width:1026px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#tv{display: block;}
+    img#print{display: none;}
+    img#pc{display: none;}
+}
