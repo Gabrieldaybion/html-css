@@ -12,7 +12,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+    
 }
 body{
     height: 100vh;
@@ -52,8 +52,7 @@ div.buni{
 }
 h1#tt{
     display:inline-flex;
-    margin: auto;
-    
+    margin: auto; 
     width: 210px; /* MUDAR PARA PC */
     height: 33px;
     color: #2b1c1b;
@@ -80,13 +79,6 @@ h1#tt::after{
     100%{
         opacity: 1;
     }
-}
-main{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background:#302726;
 }
 .card{
     position: absolute;
@@ -168,7 +160,38 @@ main{
         transform: translateY(-100%);
     }
 }
+main{
+    
+    min-height: 100vh;
+    background:#302726;
+}
+article{
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    background:url(Brown\ Space\ Walpaper.jpeg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+}
+aside{
+    background-color: hsla(7, 10%, 17%, 0.910);
+    width: 85vw;
+    height: 80vh;
+    text-align: center;
+
+    
+}
+#it{
+    display: inline-block;
+    
+}
 footer{
-   margin:12px;
+   margin-bottom:9px;
+   padding: 6px;
    background-color:gray;
+   width: 93vw;
 }
