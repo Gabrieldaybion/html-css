@@ -1,0 +1,7 @@
+@charset "UTF-8";
+ @media print{
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+ }
+ 
