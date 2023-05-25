@@ -24,8 +24,7 @@ header{
     text-align: center;
     width: 95vw;
     background: #6e6e6e;
-    height: 35vh;   
-    
+    height: 28vh;     
     margin-top:6px;
     
     
@@ -35,12 +34,13 @@ div#ftx{
     text-align: center;
     background: url(download.jpeg);
     width: 93vw;
-    height: 34.3vh;
+    height: 27.3vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     border-radius: 1.5px;
+    box-shadow: 1px 1px 7px 1px black;
     
 }
 div.buni{
@@ -222,6 +222,7 @@ div#escrito{
 
 }
 #escrito h2{
+    padding-top: 5px;
     font-size: 19px;
     color: rgb(24, 20, 20);
 }
