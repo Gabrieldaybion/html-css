@@ -33,6 +33,7 @@ div#ftx{
     margin: auto;
     text-align: center;
     background: url(download.jpeg);
+    background-position: center center;
     width: 93vw;
     height: 27.3vh;
     background-repeat: no-repeat;
@@ -216,7 +217,7 @@ div#escrito{
     margin: auto;
     margin-top: 12px;
     width: 75vw;
-    height: 40vh;
+    height: 24vh;
     box-shadow: 1px 1px 4px 1px black;
     background-color: rgba(184, 179, 179, 0.453);
 
