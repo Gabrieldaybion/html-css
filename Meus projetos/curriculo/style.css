@@ -174,24 +174,84 @@ article{
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    width: 80vw;
-    height: 80vh;
+    width: 85vw;
+    height: 85vh;
 }
 aside{
     background-color: hsla(7, 10%, 17%, 0.910);
     width: 85vw;
-    height: 80vh;
+    height: 95vh;
     text-align: center;
-
     
+}
+div.conteudo{
+    display: block;
+    margin-top: 2px;
 }
 #it{
-    display: inline-block;
-    
+        color:#b9b1b0 ;
 }
+#pl{
+    width: 29px;
+    height: 29px;
+}
+#pi{
+    width: 27px;
+    height: 27px;
+    margin-left: 7px;
+}
+#pg{
+    width: 33px;
+    height: 33px;
+    margin-left: 5px;
+}
+p{
+    color:#b9b1b0;
+    padding-top: 3px;
+    padding-bottom:15px;
+}
+div#escrito{
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    width: 75vw;
+    height: 40vh;
+    box-shadow: 1px 1px 4px 1px black;
+    background-color: rgba(184, 179, 179, 0.453);
+
+}
+#escrito h2{
+    font-size: 19px;
+    color: rgb(24, 20, 20);
+}
+#escrito p{
+    color: #0a0202;
+    font-size: 14px;
+}
+#escrito > ul{
+    list-style-position: inside;
+    columns: 2;
+}
+#escrito > li{
+    font-size: 12px;
+    display: list-item;
+    text-align:-webkit-match-parent;
+    color: #0a0202;
+}
+ul{
+    
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 10px;
+}
+
 footer{
    margin-bottom:9px;
    padding: 6px;
-   background-color:gray;
+   background-color:#2b1c1b;
    width: 93vw;
 }
