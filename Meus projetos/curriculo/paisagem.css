@@ -1,0 +1,46 @@
+@charset    "UTF-8";
+@media screen and (min-width:550px) and (max-width:812px)/* Modo paisagem telefone pequeno*/{
+    #eu{
+        width: 58px;
+        height: 58px;
+        border-radius: none;
+    }
+    div#escrito{
+        height: 226px;
+    }
+    .card{
+        width: 58px;
+        height: 58px;
+        top: 13%;
+        left: 30%;
+    }
+    article{
+        height: 450px;
+    }
+    aside{
+        height: 450px;
+    }
+ }
+ @media screen and (min-width:813px) and (max-width:920px)/*Modo paisagem telefone normal*/{
+    #eu{
+        width: 70px;
+        height: 70px;
+        border-radius: none;
+    }
+    .card{
+        width: 70px;
+        height: 70px;
+        top: 5%;
+        left: 30%;
+    }
+    
+    article{
+        height: 465px;
+    }
+    aside{
+        height: 465px;
+    }
+    div#escrito{
+        height: 236px;
+    }
+ }

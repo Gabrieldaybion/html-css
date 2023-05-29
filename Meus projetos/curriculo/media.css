@@ -21,50 +21,70 @@
         font-size: 20px;
     }
  }
- @media screen and (min-width:401px) and (max-width:530px) /* celular Normal */ {
+ @media screen and (min-width:401px) and (max-width:630px) /* celular Normal */ {
     div#escrito{
         height: 196px;
     }
  }
- @media screen and (orientation:landscape) and (min-width:550px) and (max-width:820px)/* Modo paisagem telefone pequeno*/{
-    #eu{
-        width: 50px;
-        height: 50px;
-        border-radius: none;
-    }
-    div#escrito{
-        height: 226px;
+ 
+ @media screen and (min-width:631px) and (max-width:1024px) /* Tablet */ {
+    h1#tt{
+        font-size: 45px;
+        width: 390px;
     }
     .card{
-        width: 50px;
-        height: 50px;
+        width: 150px;
+        height:150px;
     }
-    article{
-        height: 450px;
-    }
-    aside{
-        height: 450px;
-    }
- }
- @media screen and (orientation:landscape) and (min-width:821px) and (max-width:920px) /* Modo paisagem telefone normal */{
     #eu{
-        width: 70px;
-        height: 70px;
-        border-radius: none;
-    }
-    .card{
-        width: 70px;
-        height: 70px;
-    }
-    
-    article{
-        height: 465px;
-    }
-    aside{
-        height: 465px;
+        width:150px;
+        height: 150px;
+        border-radius: 35%;
     }
     div#escrito{
-        height: 236px;
+        height: 280px;
     }
  }
+ @media screen and (min-width:1025px) and (max-width:1370px)/* Notebook */{
+    h1#tt{
+        font-size: 45px;
+        width: 390px;
+    }
+    .card{
+        width: 130px;
+        height: 130px;
+    }
+    #eu{
+        width:130px;
+        height: 130px;
+        border-radius: 35%;
+    }
+    div#escrito{
+        height: 280px;
+        width: 600px;
+    }
+ }
+@media screen and (min-width:1371px) {
+    h1#tt{
+        font-size: 55px;
+        width: 390px;
+    }
+    #escrito h2{
+        font-size: 35px;
+    }
+    .card{
+        width: 200px;
+        height: 200px;
+    }
+    #eu{
+        width:200px;
+        height: 200px;
+        border-radius: 35%;
+    }
+    div#escrito{
+        height: 380px;
+        width: 600px;
+    }
+}
+
  
