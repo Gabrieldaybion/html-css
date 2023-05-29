@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* 
+typical device breakpoints
+*/
+
+@media screen and (min-width:420px) and (max-width:1226px){
+    span#burguer{ /* Para sumir o menu hamburguer */
+        display: none;
+    }
+    menu{ 
+        display: block;/* Para fazer o menu aparecer */
+
+    }
+    menu > ul > li{
+        display: inline-block;/* Para ficar um do lado outro */
+        
+    }
+    main{
+        width: 440px; /* Faz o tamanho do main se encaixar em telas grandes. */
+    }
+    
+}
+@media screen and (min-width: 150px) and (max-width: 256px ) {
+    main{
+        background-color: aqua;
+        width: 120px;
+        font-size: 19px;
+    }
+}
