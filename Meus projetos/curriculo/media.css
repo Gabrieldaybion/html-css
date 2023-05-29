@@ -4,4 +4,26 @@
         font-family: 'Courier New', Courier, monospace;
     }
  }
+ @media screen and (min-width:310px) and (max-width:400px) /* Celular pequeno */ {
+    div#escrito{
+        height: 196px;
+    }
+    .card{
+        width: 100px;
+        height: 100px;
+    }
+    #eu{
+        width: 90px;
+        height: 90px;
+        border-radius: 35%;
+    }
+    h1#tt{
+        font-size: 20px;
+    }
+ }
+ @media screen and (min-width:401px) and (max-width:480px) /* celular Normal */ {
+    div#escrito{
+        height: 196px;
+    }
+ }
  
