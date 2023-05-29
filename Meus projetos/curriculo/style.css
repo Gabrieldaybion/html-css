@@ -224,7 +224,7 @@ div#escrito{
 }
 #escrito h2{
     padding-top: 5px;
-    font-size: 19px;
+    font-size: 4.5vw;
     color: rgb(24, 20, 20);
 }
 #escrito p{
@@ -236,7 +236,7 @@ div#escrito{
     columns: 2;
 }
 #escrito > li{
-    font-size: 12px;
+    font-size: 1.2vw;
     display: list-item;
     text-align:-webkit-match-parent;
     color: #0a0202;
