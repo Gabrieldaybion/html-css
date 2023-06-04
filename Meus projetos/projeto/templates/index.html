@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Integração Python e HTML</title>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <link rel="stylesheet" href="../static/style.css">
+    
+</head>
+<body>
+    <h1>Exemplo de Integração Python e HTML</h1>
+    <div id="by">
+        <input type="text" id="pergunta" placeholder="Digite uma pergunta">
+        <button onclick="enviarPergunta()">Enviar</button>
+        <p id="resposta"></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(187, 183, 178);
+}
+h1{
+    font-size: 52px;
+}
+div#by{
+    background-color: beige;
+    display: block;
+    margin: auto;
+    width: 450px;
+    height: 170px;
+    text-align: center;
+    
+}
