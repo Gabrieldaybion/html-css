@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+
+        main.container{
+            background-color: antiquewhite;
+            height: 400px;
+            padding: 12px;
+            /* Para configurar todo o flexbox */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items:center;
+            flex-wrap:wrap;
+            align-content:center;
+            gap: 10px;
+
+
+        }
+        div.p{
+            padding: 4px;
+            width: 67px;
+            height: 67px;
+            margin: 7px;
+        }
+        div#bloco-1{
+            background-color: rgb(83, 224, 177);
+            
+           /*  font-size: 12px; */
+            
+        }
+        div#bloco-2{
+            background-color: rgb(196, 21, 21);
+            /* font-size: 22px; */
+        }
+        div#bloco-3{
+            background-color: chartreuse;
+            
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div id="bloco-1" class="p">1</div>
+        <div id="bloco-2" class="p">2</div>
+        <div id="bloco-3" class="p">3</div>
+
+    </main>
+</body>
+</html>
