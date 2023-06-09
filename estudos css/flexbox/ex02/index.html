@@ -6,41 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
     <style>
-
+        
         main.container{
-            background-color: antiquewhite;
-            height: 400px;
-            padding: 12px;
             /* Para configurar todo o flexbox */
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items:center;
-            flex-wrap:wrap;
+            flex-wrap:nowrap;
             align-content:center;
             gap: 10px;
+            /* Estilização */
+            background-color: antiquewhite;
+            width: 320px;
+            height: 200px;
+            padding: 12px;
+            border-radius: 17px;
+            
 
 
         }
         div.p{
             padding: 4px;
-            width: 67px;
-            height: 67px;
+            width: 27px;
+            height: 27px;
             margin: 7px;
+            border-radius: 6px;
+            text-align: center;
         }
         div#bloco-1{
             background-color: rgb(83, 224, 177);
-            
+            order: 1;
            /*  font-size: 12px; */
+          align-self: flex-start;
             
         }
         div#bloco-2{
             background-color: rgb(196, 21, 21);
             /* font-size: 22px; */
+            order:1;
+            flex-grow:0;
         }
         div#bloco-3{
-            background-color: chartreuse;
-            
+            background-color:chartreuse;        order: 1;  
+            flex-shrink: 6; 
         }
     </style>
 </head>
@@ -49,6 +58,15 @@
         <div id="bloco-1" class="p">1</div>
         <div id="bloco-2" class="p">2</div>
         <div id="bloco-3" class="p">3</div>
+      <!--   <div id="bloco-1" class="p">4</div>
+        <div id="bloco-2" class="p">5</div>
+        <div id="bloco-3" class="p">6</div>
+        <div id="bloco-1" class="p">7</div>
+        <div id="bloco-2" class="p">8</div>
+        <div id="bloco-3" class="p">9</div>
+        <div id="bloco-1" class="p">10</div>
+        <div id="bloco-2" class="p">11</div>
+        <div id="bloco-3" class="p">12</div> -->
 
     </main>
 </body>
