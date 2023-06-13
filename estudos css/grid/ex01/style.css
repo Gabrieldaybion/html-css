@@ -1,0 +1,36 @@
+@charset    "UTF-8";
+html,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #7159c1;
+    text-align: center;
+}
+header{
+    background-color: yellow;   
+    grid-area: h;   
+}
+
+main{
+    background-color: blue;    
+    grid-area: m;
+}
+aside{
+    background-color: green;    
+    grid-area: a;    
+}
+footer{
+    background-color: red;   
+    grid-area: f;         
+}
+.container{
+    display: grid;/* Para iniciar o grid */
+    grid-template-columns: 3fr 1fr ; /* Para falar o "tamanho" */
+    grid-template-rows: 20vh 70vh 10vh;/* Faz ter o tamanho das linhas header/main/footer */
+    grid-gap: 0px 0px;/* Row,collumns */ 
+    grid-template-areas: "h h"
+                         "m a"
+                         "f f"   
+    
+    ;
+}
