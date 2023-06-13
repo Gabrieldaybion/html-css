@@ -10,15 +10,24 @@ html,body{
 .container{
     display: grid;
     grid-template-columns: 5fr 1fr;
-    grid-template-rows: 20vh 100% 10vh ;
+    grid-template-rows: 25vh 100% 10vh ;
     grid-template-areas: "h h"
                          "m a"
                          "f f";
 }
 
 header{
-background-color: aqua;
-grid-area: h;
+    background-color:#8C5535;
+    grid-area: h;
+    background-image:url(../imagem/golden\ MTZAo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75% 50vh;
+    grid-template-areas: "g g"
+                         "n n";
 }
 nav{  
     width: 96.2vw;
@@ -27,7 +36,47 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items:center;
-    background-color: aqua;
+    grid-area: g;
+
+}
+.ctp{
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #93A2BF;
+    background-image: url(../imagem/r6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position: center center;
+
+    grid-area: n;
+
+}
+.ct1{
+    
+}
+.ct1 >a{
+    margin-left: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 4px;
+    background-color: #80838baf;
+    margin-bottom: 3px;
+}
+
+.ct2{
+
+}
+.ct2 > a {
+
+}
+.ct2 > a > img{
+    width: 27px;
+    margin-right:10px;
 }
 div.buni{
     width: 63.1% ;
@@ -35,6 +84,7 @@ div.buni{
     background-image: url(../imagem/fricandini2.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    
     border-radius:23px 23px;
     box-shadow: 1px 1px 5px black;
     
@@ -102,10 +152,22 @@ article{
     height: 4000px;
     margin-top:12px;
     border-radius: 7px;
+    box-shadow: 2px 2px 5px black;
 }
 section{
  grid-area:a;
- background-color: green;
+
+ background-color: #D9D7CC;
+ background-image: url(../imagem/r6\ 2.jpeg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top left;
+
+ border-left: 3px  solid #999791;
+ border-top: 2px solid #999791;
+ border-bottom: 1px solid #999791;
+ border-right: 1px solid #999791;
 }
 footer{
 grid-area: f;
