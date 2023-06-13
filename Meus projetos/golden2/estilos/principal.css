@@ -1,17 +1,28 @@
 @charset    "UTF-8";
-*{
+html,body{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-
+    box-sizing: border-box;
+    background: #7159c1;
+    text-align: center;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 20vh 100% 10vh ;
+    grid-template-areas: "h h"
+                         "m a"
+                         "f f";
 }
 
 header{
-
+background-color: yellow;
+grid-area: h;
 }
 nav{  
-    width: 99.9vw;
-    height: 180px;
+    width: 95.0vw;
+    height: 130px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -20,7 +31,7 @@ nav{
 }
 div.buni{
     width: 300px ;
-    height: 150px;
+    height: 110px;
     background-image: url(../imagem/fricandini2.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +42,7 @@ div.buni{
 }
 div#tx{
     width: 300px;
-    height: 150px;
+    height: 110px;
     background-color:rgba(255, 255, 255, 0.415);
     position: relative;
     border-radius:23px 23px;
@@ -47,7 +58,7 @@ h1#tt{
     font-size: 28px;
     text-shadow: 1px 1px 4px rgb(31, 28, 28);
     position: absolute;
-    top: 25%;
+    top: 5%;
     left: 25%;
     
 
@@ -70,3 +81,20 @@ h1#tt::after{
     }
 }
 /* Final do codigo de escrever */
+main{
+ grid-area: m;
+ background-image: url(../imagem/foto\ golden\ capa.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ background-attachment: fixed;
+ 
+}
+section{
+ grid-area:a;
+ background-color: green;
+}
+footer{
+grid-area: f;
+background-color: red;
+}
