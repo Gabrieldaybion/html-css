@@ -162,6 +162,7 @@ div.artzg{
     justify-content: center;
     background-color: rgba(231, 231, 213, 0.589);
     box-shadow: 1px 1px 5px black;
+    margin-top: 20px;
 }
 div.artzg >p{
     margin-left: 12px;
@@ -169,6 +170,7 @@ div.artzg >p{
 div.padrao{
     background-color: rgba(231, 231, 213, 0.589);
     box-shadow: 1px 1px 5px black;
+    margin-top: 20px;
 }
 img#plat{
     width: 86px;
@@ -183,6 +185,18 @@ img#fric{
     box-shadow: 1px 1px 5px black;
 
 }
+div.slide{
+    background-color: rgba(231, 231, 213, 0.589);
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+#carouselExampleIndicators{
+    width: 200px;
+}
+
 
 section{
  grid-area:a;
