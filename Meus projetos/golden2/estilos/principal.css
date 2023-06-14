@@ -154,7 +154,21 @@ article{
     margin-bottom: 12px;
     border-radius: 7px;
     box-shadow: 2px 2px 5px black;
+
 }
+div.artzg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(231, 231, 213, 0.589);
+}
+div.artzg >p{
+    margin-left: 12px;
+}
+div.padrao{
+
+}
+
 section{
  grid-area:a;
 
@@ -201,4 +215,5 @@ section h3{
 footer{
 grid-area: f;
 background-color: red;
+
 }
