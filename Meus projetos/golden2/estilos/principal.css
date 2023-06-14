@@ -146,6 +146,33 @@ main{
 
  
 }
+main > article >h2{
+    color: #0f0a0a;
+    font-size: 22px;
+}
+.artzg{
+    background-color: #d9d7ccb6;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 1px 1px 5px black;
+}
+ul#zg{
+    list-style-position: inside;
+}
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.padrao{
+    background-color: #d9d7ccb6;
+    box-shadow: 1px 1px 5px black;
+}
+#plat{
+    width: 75px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
 article{
     background-color: rgba(255, 255, 255, 0.63);
     width: 90%;
@@ -198,6 +225,7 @@ section h3{
     border: 1.3px solid #535046c0;
     
 }
+
 footer{
 grid-area: f;
 background-color: red;
