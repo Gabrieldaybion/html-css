@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Coustard&display=swap');
+/* font-family: 'Coustard', serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+
+}
+
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg,rgb(119, 119, 119) 50%,rgb(36, 36, 36) 1%);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+header > img{
+    width: 72px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 40px;
+}
+.cabecalho-menu > a{
+    font-family:'Coustard', serif ;
+    color: white;
+}
+.conteudo{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 45px;
+
+}
+#imor{
+    margin-top: 34px;
+    width: 30vw;
+    border-radius: 34px;
+    border: 3px solid rgba(0, 0, 0, 0.667);
+    box-shadow: 1px 1px 5px black;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-escrito >h1{
+    font-family:'Coustard', serif ;
+    font-weight: 400px;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 0.753);
+}
+.conteudo-principal-escrito > h2{
+    font-family: 'Coustard', serif;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.753);
+}
+.btn{
+    background-color: #584f4e;
+    width: 195px;
+    height: 67px;
+    border-radius: 17px;
+    border: none;
+    box-shadow: 1px 1px 6px black;
+   font-family: Arial, Helvetica, sans-serif;
+    color: #FFF2E7;
+    font-size: 22px;
+    transition: 1s;
+}
+.btn:hover{
+    width: 210px;
+    height: 77px;
+    background-color: #756a69;
+}
+.conteudo-secundario{
+    margin-top: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.conteudo-secundario > h3{
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+    color: #FFF2E7;
+    font-size: 32px;
+}
+footer{
+    border-top: 0.4px solid white;
+    padding: 32px;
+    text-align: center;
+}
+footer > h1{
+    font-family: 'Coustard', serif;
+    color: #FFF2E7;
+}
