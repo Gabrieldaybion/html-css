@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Coustard&display=swap');
+/*  Font nome daybion font-family: 'Coustard', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    --cor0:#29353c;
+    --cor1:#44576d;
+    --cor2:#768a96;
+    --cor3:#aac7d8;
+    --cor4:#dfebf6;
+    --cor5:#e6e6e6;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #7159c1;
+}
+div.conta{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-template-rows: 10vh,70vh,10vh ;
+    grid-template-areas: "h h"
+                         "m s"
+                         "f f"
+                         ;
+
+
+}
+header{
+    display: flex;   
+    flex-direction: column;
+    padding: 34px;
+    background-image:linear-gradient(78.3deg,#e6e6e6 50%,#aac7d8 50%,#44576d  );
+    background-attachment: fixed;
+    grid-area: h;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#ftfox{
+    width: 150px;
+    margin: 0px;
+}
+/* FAzer a letra escrever */
+h1#tt{
+    font-family: 'Coustard', serif;
+}
+h1#tt::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+@keyframes pisca {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/* Fim letra escrever */
+div.lin{
+    display: flex;
+    justify-content: end;
+    background-color: #97b1c0;
+     
+    padding: 4px;
+    
+}
+.lin2 > a{
+    margin-right: 12px;
+    text-decoration: none;
+
+}
+main{
+    grid-area: m;
+    background-image: linear-gradient(120deg,#8aa1af 50%,#e6e6e6 50%,#44576d ) ;
+    
+
+    text-align: center;
+    
+
+}
+.principal{
+    background-color: #44576d67;
+}
+main > p#bem{
+    margin-top: 12px;
+}
+#carouselExampleAutoplaying{
+    width: 300px;
+    padding-bottom: 22px;
+    
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+grid-area: s;
+background-color: #5d6064;
+
+}
+footer{
+    grid-area:f;
+    background-color: #29353c;
+}
