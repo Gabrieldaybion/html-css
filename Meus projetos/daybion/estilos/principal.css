@@ -48,6 +48,7 @@ nav{
 #ftfox{
     width: 150px;
     margin: 0px;
+    border-radius: 12px;
 }
 /* FAzer a letra escrever */
 h1#tt{
