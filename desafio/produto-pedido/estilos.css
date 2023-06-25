@@ -1,0 +1,108 @@
+@charset "UFT-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: hsl(226, 55%, 94%);
+}
+.container{
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+background-image: url(images/pattern-background-mobile.svg);
+background-repeat: no-repeat;
+background-size: contain;
+
+
+}
+main{
+background-color: hsl(246, 25%, 92%);
+width: 375px;
+height: 82vh;
+border-radius: 34px;
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.865);
+
+
+}
+header{
+height: 35%;
+background-image: url(images/illustration-hero.svg);
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 34px 34px 0px 0px;
+
+}
+.princ{
+height:65%;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: center;
+
+
+}
+.princ h1{
+    font-size: 1.3em;
+    margin-bottom: 12px;
+
+}
+.texto{
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#ttx{
+color: rgba(14, 14, 14, 0.718);
+}
+.Annual{
+margin-top: 34px;
+margin-bottom: 12px;
+display: flex;
+flex-direction: row;
+height:18%;
+align-items: center;
+background-color: rgba(164, 164, 192, 0.117);
+padding: 30px 20px 30px 20px ;
+border-radius: 12px;
+}
+.Annual >a{
+    color: blue;
+    margin-left: 75px;
+}
+#anual{
+margin-left: 12px;
+}
+p#pla{
+margin-bottom: 3px;
+}
+p#year{
+color: rgba(0, 0, 0, 0.39);
+}
+#imusic{
+    width: 43px;
+}
+.pagamento{
+    width: 100%;
+    padding: 9px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.173);
+    border-radius:8px;
+    text-align: center;
+    background-color: hsl(245, 75%, 52%);
+    font-family: cursive;
+    margin: 10px 0px;
+}
+.pagamento > p{
+    color: white;
+}
+p#Cancel{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.594);
+}
