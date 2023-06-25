@@ -77,6 +77,10 @@ border-radius: 12px;
     color: blue;
     margin-left: 75px;
 }
+.Annual >a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
 #anual{
 margin-left: 12px;
 }
@@ -98,6 +102,11 @@ color: rgba(0, 0, 0, 0.39);
     background-color: hsl(245, 75%, 52%);
     font-family: cursive;
     margin: 10px 0px;
+    transition: 0.6s;
+}
+.pagamento:hover{
+    background-color: hsla(245, 75%, 52%, 0.733);
+    cursor: pointer;
 }
 .pagamento > p{
     color: white;
@@ -105,4 +114,8 @@ color: rgba(0, 0, 0, 0.39);
 p#Cancel{
     margin-top: 15px;
     color: rgba(0, 0, 0, 0.594);
+}
+p#Cancel:hover{
+    color: rgba(0, 0, 0, 0.794);
+    cursor: pointer;
 }
