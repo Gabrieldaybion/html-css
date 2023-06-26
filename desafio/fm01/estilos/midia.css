@@ -7,7 +7,7 @@
    /* Tablet */ 
 }
 
-@media screen and (min-width:300px) and (max-width:580px){
+@media screen and (min-width:300px) and (max-width:530px){
     /* Telefones*/
     .princ{
         width: 57vw;
