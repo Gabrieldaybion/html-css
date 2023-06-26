@@ -1,0 +1,123 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.princ{
+    width: 77vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    background-color: hsla(39, 46%, 84%, 0.04);
+    border-radius: 24px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.205);
+
+}
+
+section{
+    
+    width: 45%;
+    background-image: linear-gradient(360deg,hsl(241, 82%, 44%),hsl(252, 100%, 67%));
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section h1{
+    margin-top: 20px;
+    color: white;
+    font-size: 1.4em;
+}
+.roda{
+    width:150px ;
+    height: 150px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    margin: 25px 0px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.596);
+
+    
+}
+.roda h2{
+    color: white;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.roda h3{
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 0.9em;
+}
+section h4{
+    color: white;
+    font-size: 1.6em;
+    margin-bottom: 12px;
+}
+section p{
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article{
+    width: 55%;
+}
+header{
+margin-top: 12px;
+margin-left: 35px;
+}
+main{
+    margin-left: 35px;
+    margin-top: 23px;
+    margin-bottom: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+#caixa{
+    width: 210px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    
+}
+.rec{
+background-color: hsla(0, 100%, 67%, 0.100);
+}
+.mem{
+    background-color: hsla(39, 100%, 56%, 0.100);
+}
+
+.ver{
+    background-color: hsl(166, 100%, 37%,0.100);
+}
+.vis{
+    background-color:  hsl(234, 85%, 45%,0.100);
+}
+footer{
+    margin-top: 23px;
+    margin-left: 35px;
+    background-color: rgba(40, 46, 78, 0.815);
+    color: white;
+    width: 210px;
+    padding:9px 0px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 1px 1px 5px black;
+
+}
