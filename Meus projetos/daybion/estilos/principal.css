@@ -17,26 +17,29 @@ html,body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background: #7159c1;
+    background: #ffffff;
+  
 }
 div.conta{
     display: grid;
     grid-template-columns: 7fr 1fr;
     grid-template-rows: 10vh,70vh,10vh ;
     grid-template-areas: "h h"
-                         "m s"
+                         "m m"
                          "f f"
                          ;
 
 
 }
 header{
+    
     display: flex;   
     flex-direction: column;
-    padding: 34px;
+    padding:1px;
     background-image:linear-gradient(78.3deg,#e6e6e6 50%,#aac7d8 50%,#44576d  );
     background-attachment: fixed;
     grid-area: h;
+    
     
 }
 nav{
@@ -44,6 +47,7 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    
 }
 #ftfox{
     width: 150px;
@@ -74,37 +78,76 @@ h1#tt::after{
 /* Fim letra escrever */
 div.lin{
     display: flex;
-    justify-content: end;
-    background-color: #97b1c0;
-     
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(151, 177, 192, 0.364);   
     padding: 4px;
+    
+
     
 }
 .lin2 > a{
     margin-right: 12px;
     text-decoration: none;
+    color: #29353c;
 
+}
+#lobin{
+    width: 29px;
+    border-radius: 10px;
 }
 main{
     grid-area: m;
-    background-image: linear-gradient(120deg,#8aa1af 50%,#e6e6e6 50%,#44576d ) ;
-    
-
+    background-image: linear-gradient(120deg,rgba(138, 161, 175, 0.196) 50%,rgba(230, 230, 230, 0.141) 50%,rgba(68, 87, 109, 0.97) ) ;
     text-align: center;
     
-
+    
+    
 }
 .principal{
     background-color: #44576d67;
+    height: 100%;
+    
+
+    
 }
 main > p#bem{
     margin-top: 12px;
 }
+.textos{
+    
+    width: 219px;
+    display: block;
+    margin: auto;
+    margin-top: 19px;
+    background-color: rgba(68, 87, 109, 0.171);
+    border-radius: 4px;
+
+}
+/* Config carrosel */
 #carouselExampleAutoplaying{
-    width: 300px;
+    width: 200px;
     padding-bottom: 22px;
+    border-radius: 12px;
+    background-color: transparent;
+  
+}
+.carimg{
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 5px black;
     
 }
+
+#carouselExample{
+    width: 200px;
+}
+.card{
+    position:unset;
+    
+}
+
+/* Final da config. */
 article{
     display: flex;
     flex-direction: column;
@@ -118,4 +161,5 @@ background-color: #5d6064;
 footer{
     grid-area:f;
     background-color: #29353c;
+
 }
