@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* Conteudo principal */
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.princ{
+    width: 400px;
+    height: 295px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+
+}
+#azul{
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+}
+#red{
+    background-color: red;
+    width: 50%;
+    height: 100%;
+}
+/* Com midias */
+
+
+@media only screen and (max-device-width: 480px) and (min-device-height:320px) and (orientation: landscape){
+    #red{
+        background-color: rgb(0, 81, 255);
+        
+    }
+}
+@media only screen and (max-device-width: 320px) and (min-device-height:480px) and (orientation: portrait){
+    #red{
+        background-color: bisque;
+    }
+}
