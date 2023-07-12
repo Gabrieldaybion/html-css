@@ -165,10 +165,31 @@ article{
     height: 110px;
     background-color: transparent;
 }
-section{
-grid-area: s;
-background-color: #5d6064;
+.sites-completos{
+    width: 94vw;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "g e";
+    margin-bottom: 120px;
+}
+.framex{
+    
+    grid-area: g;
+}
+#imgframe{
+    width: 100%; 
+    height: 100%;
+}
+iframe{
+    width: 100%;
+    height: 100%;
 
+}
+section{
+    
+    background-color: white;
+    grid-area:e;
 }
 footer{
     grid-area:f;
