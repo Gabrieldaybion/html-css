@@ -26,7 +26,7 @@ function cordel(){
     console.log('Imagem condel carregada');
     const img = document.getElementById('fotinx');
     const al = document.getElementById('alink');
-    al.setAttribute('href', 'https://gabrieldaybion.github.io/projeto-login/');
+    al.setAttribute('href', 'https://gabrieldaybion.github.io/html-css/desafio/desafio012/');
     img.setAttribute('src', './imagens/cordel.PNG');
 }
 /* Projetos pessoais.*/
