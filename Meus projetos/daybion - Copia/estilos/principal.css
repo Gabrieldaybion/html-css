@@ -208,7 +208,9 @@ article{
     border-radius: 0px 20px 0px 0px;
 }
 .botoesres{
-    height: 40%;
+    background-image: linear-gradient(120deg,rgba(138, 161, 175, 0.196) 50%,rgba(230, 230, 230, 0.141) 50%,rgba(68, 87, 109, 0.097) );
+    height: 36%;
+    border-radius: 0px 0px 20px 0px;
 }
 #btn{
     border-radius: 6px;
