@@ -115,6 +115,7 @@ div.lin{
     width: 32px;
     border-radius: 10px;
     transition: 1s;
+    padding: 1px 1px;
 }
 #lobin:hover{
     width: 29px;
@@ -124,10 +125,7 @@ main{
     
     grid-area: m;
     background-image: linear-gradient(120deg,rgba(138, 161, 175, 0.196) 50%,rgba(230, 230, 230, 0.141) 50%,rgba(68, 87, 109, 0.97) ) ;
-    text-align: center;
-    
-    
-    
+    text-align: center;   
 }
 .principal{
     background-color: #44576d67;
@@ -137,9 +135,7 @@ main{
     align-items: center;
     justify-content: center;
     gap: 12px;
-    
-
-    
+       
 }
 
 .textos{
@@ -166,35 +162,70 @@ article{
     height: 110px;
     background-color: transparent;
 }
+.projec{
+    margin-top: 80px;
+    width: 94vw;
+    height: 480px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgba(118, 138, 150, 0.094);
+    margin-bottom: 120px;
+    box-shadow: 0.9px 0.9px 5px rgba(0, 0, 0, 0.198) ;
+
+}
+.projec > h1{
+    margin: 0px;
+    
+
+}
+.projec > p{
+    font-size: 0.9em;
+}
 .sites-completos{
     width: 94vw;
     height: 400px;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    border-radius: 20px;
+    grid-template-columns: 4fr 1fr;
     grid-template-areas: "g e";
-    margin-bottom: 120px;
+    
+    box-shadow: 1px 1px 5px black;
 }
 .framex{
-    
     grid-area: g;
+    border-radius: 20px;
+    
 }
-#imfr{
-    width: 100px;
-    height: 50px;
-}
-#imgframe{
-    width: 100%; 
-    height: 100%;
-}
-iframe{
+#fotinx{
     width: 100%;
     height: 100%;
-
+    transition: 1s;
+    border-radius: 20px 0px 0px 20px ;
+    transition:5s;
+}
+.botoes{
+    height: 60%;
+    background-image: linear-gradient(220deg,rgba(138, 161, 175, 0.196) 50%,rgba(230, 230, 230, 0.141) 50%,rgba(68, 87, 109, 0.097) );
+    border-radius: 0px 20px 0px 0px;
+}
+.botoesres{
+    height: 40%;
+}
+#btn{
+    border-radius: 6px;
+    font-size: 0.7em;
+    padding: 5px;
+    transition:1s;
+    width: 60px;
+    
+}
+#btn:hover{
+    width: 68px;
+    
 }
 section{
     
-    background-color: white;
     grid-area:e;
+    border-radius: 0px 20px 20px 0px;     
 }
 footer{
     grid-area:f;
