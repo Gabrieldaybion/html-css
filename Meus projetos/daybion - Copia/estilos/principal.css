@@ -144,6 +144,9 @@ main{
     border-radius: 4px;
 
 }
+.textos >p{
+    font-size: 0.9em;
+}
 
 article{
     margin-top: 59px;
@@ -218,7 +221,7 @@ article{
     padding: 5px;
     transition:1s;
     width: 60px;
-    background-color: transparent;
+    background-color:#e9f1f873;
     box-shadow: 1px 1px 15px rgba(36, 36, 36, 0.751);
     
 }
