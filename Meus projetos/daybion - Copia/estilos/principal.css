@@ -13,6 +13,7 @@
     --cor4:#dfebf6;
     --cor5:#e6e6e6;
 }
+
 html,body{
     margin: 0px;
     padding: 0px;
@@ -176,6 +177,10 @@ article{
 .framex{
     
     grid-area: g;
+}
+#imfr{
+    width: 100px;
+    height: 50px;
 }
 #imgframe{
     width: 100%; 
