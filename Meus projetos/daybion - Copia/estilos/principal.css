@@ -218,6 +218,8 @@ article{
     padding: 5px;
     transition:1s;
     width: 60px;
+    background-color: transparent;
+    box-shadow: 1px 1px 15px rgba(36, 36, 36, 0.751);
     
 }
 #btn:hover{
