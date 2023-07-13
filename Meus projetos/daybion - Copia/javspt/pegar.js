@@ -19,7 +19,7 @@ function login(){
     const img = document.getElementById('fotinx');
     const al = document.getElementById('alink');
     al.setAttribute('href', 'https://gabrieldaybion.github.io/projeto-login/');
-    img.setAttribute('src', './imagens/login.PNG');
+    img.setAttribute('src', './imagens/Login.PNG');
 }
 
 function cordel(){
