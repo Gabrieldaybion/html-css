@@ -6,6 +6,9 @@ projetos pessoais.
 
 
 
-Habilidades
+Habilidades:
+
+html,css,javascript,python.
+
 Tecnologias que estou estudando.
 
