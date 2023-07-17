@@ -34,6 +34,8 @@ function cordel(){
     al.setAttribute('href', 'https://gabrieldaybion.github.io/html-css/desafio/desafio012/');
     img.setAttribute('src', './imagens/cordel.PNG');
     img.style.height ='300px';
+    img.style.transition ='1';
+
 
 }
 /* Projetos pessoais.*/

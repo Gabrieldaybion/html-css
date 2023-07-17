@@ -158,6 +158,8 @@ article{
     gap: 1px;
     align-items: center;
     border-radius: 13px;
+    margin-bottom: 30px;
+
 }
 #lobix{
     margin-right: 12px;
@@ -183,6 +185,22 @@ article{
 .projec > p{
     font-size: 0.9em;
 }
+/* Sobre mim */
+.mim{
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 55px;
+    width: 65vw;
+    background-color: transparent;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.699);
+}
+.mim >h1{
+    text-shadow: 2px 2px 5px #29353c;
+}
+.mim > p{
+    font-size: 0.9em;
+}
+/* Sites de desafios */
 .sites-completos{
     width: 94vw;
     height: 300px;
