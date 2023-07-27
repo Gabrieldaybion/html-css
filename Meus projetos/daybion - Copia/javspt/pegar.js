@@ -38,7 +38,7 @@ function cordel(){
 
 
 }
-/* Projetos pessoais.*/
+
 
 /* Habilidades */
 
@@ -110,4 +110,20 @@ function sobrejsnor(){
     ttx.style.textAlign = 'center'
     ttx.style.marginLeft = '1px'
     ttx.innerHTML = '/*Passe o mouse em uma das imagens para saber sobre a tecnologia.*/'
+}
+/* Funções para Meus Projetos */
+
+
+function imor(){
+    console.log('Trocou a img para imortal')
+    const imgMy = document.getElementById('myimg');
+    const aMy = document.getElementById('mylink');
+    imgMy.setAttribute('src', './imagens/site-imortal.PNG')
+}
+
+function cur(){
+    console.log('Trocou a img para curriculo')
+    const imgMy = document.getElementById('myimg');
+    const aMy = document.getElementById('mylink');
+    imgMy.setAttribute('src', './imagens/meu-curriculo.PNG')
 }

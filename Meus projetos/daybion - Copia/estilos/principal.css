@@ -256,7 +256,7 @@ section{
     width: 94vw;
     height: 250px;
     background-color: rgba(68, 87, 109, 0.127);
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 .hab{
     width: 94vw;
@@ -368,6 +368,84 @@ section{
     text-align: center;
     
 }
+.Projetos{
+    width: 89vw;
+    height: 490px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    padding: 12px;
+    box-shadow: 1px 1px 5px #00000041;
+    border-radius: 12px;
+}
+.Projetos > h1{
+
+}
+.Projetos > p{
+
+}
+.pincireal{
+    width: 90%;
+    height: 90%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px #000000
+
+}
+.realcima{
+    width: 100%;
+    height: 20%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnmy{
+    width: 40%;
+    height: 50%;
+    background-color: transparent;
+    box-shadow: 1px 1px 5px #768a96;
+    border-radius: 12px;
+    transition: 1.2s;
+}
+.btnmy:hover{
+    width: 40%;
+    height: 50%;
+    background-color: rgba(33, 83, 114, 0.198);
+    box-shadow: 2px 2px 5px #000000;
+}
+.realbaixo{
+    width: 100%;
+    height: 80%;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  #000000;
+    border-bottom: 1px solid  #000000;
+
+}
+.realimg{
+    width:80%;
+    height:97%;    
+
+}
+
+
+
+#myimg{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
 footer{
     
     grid-area:f;
