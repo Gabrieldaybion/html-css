@@ -96,5 +96,78 @@
         width: 78px;
         height: 78px;
     }
+    /* My projetos */
+    .Projetos{
+        width: 98vw;
+        height: 490px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 35px;
+        padding: 12px;
+        box-shadow: 1px 1px 5px #00000041;
+        border-radius: 12px;
+    }
+    
+    .pincireal{
+        width: 100%;
+        height: 90%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 5px #000000;
+        border-radius: 12px;
+    
+    }
+    .realcima{
+        width: 100%;
+        height: 20%;
+        background-color:transparent;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .btnmy{
+        width: 40%;
+        height: 50%;
+        background-color: transparent;
+        box-shadow: 1px 1px 5px #768a96;
+        border-radius: 12px;
+        transition: 1.2s;
+    }
+    .btnmy:hover{
+        width: 40%;
+        height: 50%;
+        background-color: rgba(33, 83, 114, 0.198);
+        box-shadow: 2px 2px 5px #000000;
+    }
+    .realbaixo{
+        width: 100%;
+        height: 80%;
+        background-color:transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+    
+    }
+    .realimg{
+        width:97%;
+        height:97%; 
+        border-radius: 12px;   
+    
+    }
+    
+    
+    
+    #myimg{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    
+    }
     
 }

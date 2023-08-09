@@ -178,6 +178,7 @@ function imor(){
     const imgMy = document.getElementById('myimg');
     const aMy = document.getElementById('mylink');
     imgMy.setAttribute('src', './imagens/site-imortal.PNG')
+    aMy.setAttribute('href','https://gabrieldaybion.github.io/html-css/Meus%20projetos/land-page/')
 }
 
 function cur(){
@@ -185,4 +186,5 @@ function cur(){
     const imgMy = document.getElementById('myimg');
     const aMy = document.getElementById('mylink');
     imgMy.setAttribute('src', './imagens/meu-curriculo.PNG')
+    aMy.setAttribute('href','https://gabrieldaybion.github.io/html-css/Meus%20projetos/curriculo/')
 }
