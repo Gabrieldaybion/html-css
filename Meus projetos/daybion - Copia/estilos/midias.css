@@ -74,4 +74,27 @@
     #btn:hover{
         width: 68px;
     }
+    /* Habilidades */
+    .habimagens{
+        width: 74px;
+        height: 74px;   
+    }
+    
+    #imghtml:hover{
+        width: 78px;
+        height: 78px;
+    }
+    #imgjs:hover{
+        width: 78px;
+        height: 78px;
+    }
+    #imgcss:hover{
+        width: 78px;
+        height: 78px;
+    }
+    #imgpython:hover{
+        width: 78px;
+        height: 78px;
+    }
+    
 }
