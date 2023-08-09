@@ -171,3 +171,181 @@
     }
     
 }
+
+
+
+/* Configuração tablet */
+@media screen and (min-width:510px) and (max-width:850px){
+    .lin2 > a{
+        margin-right: 6px;
+        padding: 2px 3px;
+    }
+    .lin2 > a:hover{
+        padding: 2.7px 3.5px;
+    }
+    article{
+    margin-top: 59px;
+    width: 50%;
+    height: 148px;
+    border-radius: 13px;
+    margin-bottom: 30px;
+    }
+    #bem{
+        font-size: 0.9rem;
+    }
+    /* Mim */
+    .mim{
+        padding: 12px;
+        border-radius: 12px;
+        margin-top: 55px;
+        width: 50vw;
+    }
+    .mim >h1{
+        text-shadow: 2px 2px 5px #29353c;
+    }
+    .mim > p{
+     font-size: 0.9em;
+    }
+    /* Desafios */
+    .projec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        width: 68vw;
+        height: 458px;
+        border-radius: 0px 0px 20px 20px;
+        margin-bottom: 120px;
+    
+    }
+    .sites-completos{
+        width: 63vw;
+        height: 350px;
+        border-radius: 20px;
+        grid-template-columns: 3fr 1fr;
+    }
+    .framex{
+        border-radius: 20px;   
+    }
+    #fotinx{
+        width: 100%;
+        height: 250px;
+        transition: 1s;
+        border-radius: 20px 0px 0px 20px ;
+    }
+    .botoes{
+        height: 60%;
+        border-radius: 0px 20px 0px 0px;
+    }
+    .botoesres{
+        height: 36%;
+        border-radius: 0px 0px 20px 0px;
+    }
+    #btn{
+        border-radius: 6px;
+        font-size: 0.7em;
+        padding: 6px;
+        width: 60px;
+        
+    }
+    #btn:hover{
+        width: 68px;
+    }
+    /* Habilidades */
+    .habimagens{
+        width: 74px;
+        height: 74px;   
+    }
+    
+    #imghtml:hover{
+        width: 78px;
+        height: 78px;
+    }
+    #imgjs:hover{
+        width: 78px;
+        height: 78px;
+    }
+    #imgcss:hover{
+        width: 78px;
+        height: 78px;
+    }
+    #imgpython:hover{
+        width: 78px;
+        height: 78px;
+    }
+    /* My projetos */
+    .Projetos{
+        width: 98vw;
+        height: 490px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 35px;
+        padding: 12px;
+        box-shadow: 1px 1px 5px #00000041;
+        border-radius: 12px;
+    }
+    
+    .pincireal{
+        width: 100%;
+        height: 90%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 5px #000000;
+        border-radius: 12px;
+    
+    }
+    .realcima{
+        width: 100%;
+        height: 20%;
+        background-color:transparent;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .btnmy{
+        width: 40%;
+        height: 50%;
+        background-color: transparent;
+        box-shadow: 1px 1px 5px #768a96;
+        border-radius: 12px;
+        transition: 1.2s;
+    }
+    .btnmy:hover{
+        width: 40%;
+        height: 50%;
+        background-color: rgba(33, 83, 114, 0.198);
+        box-shadow: 2px 2px 5px #000000;
+    }
+    .realbaixo{
+        width: 100%;
+        height: 80%;
+        background-color:transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+    
+    }
+    .realimg{
+        width:97%;
+        height:97%; 
+        border-radius: 12px;   
+    
+    }
+    
+    
+    
+    #myimg{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    
+    }
+    
+}

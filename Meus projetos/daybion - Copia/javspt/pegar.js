@@ -1,14 +1,20 @@
 /* Habilidades */
 /* Função para os celulares e tablets */
+var realtx = 'mensagem'
 function atualizarHAb(){
     var txtHab = document.getElementById('sbtec')
-    if (window.innerWidth <= 700){
-        txtHab.innerHTML = '/*Segure uma das imagens para saber sobre as tecnologias*/'}else{
+    
+    if (window.innerWidth <= 850){
+        txtHab.innerHTML = '/*Segure uma das imagens para saber sobre as tecnologias*/'
+        realtx = '/*Segure uma das imagens para saber sobre as tecnologias*/'
+    }else{
             txtHab.innerHTML = '/*Passe o mouse em uma das imagens para saber sobre a tecnologia.*/'
+            realtx = '/*Passe o mouse em uma das imagens para saber sobre a tecnologia.*/'
         }
-        window.onload = atualizarHAb;
-        window.
+        
 }
+window.onload = atualizarHAb;
+window.onresize = atualizarHAb;
 
 /* Projetos de cursos */
 function music(){
@@ -21,7 +27,7 @@ function music(){
     img.style.height ='300px'
 
     /* Função criada para quando em certo tamanho de tela pequena */
-    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 850px)");
     function mudança(evento){
         if(evento.matches){
             img.style.height = '250px'
@@ -44,7 +50,8 @@ function perf(){
     al.setAttribute('href', 'https://gabrieldaybion.github.io/html-css/desafio/card-product/index.html');
     img.setAttribute('src', './imagens/Site-perfume.PNG');
     /* Função criada para quando em certo tamanho de tela pequena */
-    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 850px)");
+    
     function mudança(evento){
         if(evento.matches){
             img.style.height = '250px'
@@ -69,7 +76,7 @@ function login(){
     img.style.width =  '100%'
 
     /* Função criada para quando em certo tamanho de tela pequena */
-    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 850px)");
     function mudança(evento){
         if(evento.matches){
             img.style.height = '250px'
@@ -96,6 +103,9 @@ function cordel(){
     
     /* Função criada para quando em certo tamanho de tela pequena */
     const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+
+    const mediaTablet = window.matchMedia("(min-width: 410px) and (max-width: 400px)");
+
     function mudança(evento){
         if(evento.matches){
             img.style.height = '250px'
@@ -126,7 +136,7 @@ function sobrehtmlnor(){
     const ttx = document.getElementById('sbtec');
     ttx.style.textAlign = 'center'
     ttx.style.marginLeft = '1px'
-    ttx.innerHTML = '/*Passe o mouse em uma das imagens para saber sobre a tecnologia.*/'
+    ttx.innerHTML = `${realtx}`
 }
 
 
@@ -144,7 +154,7 @@ function sobrecssnor(){
     const ttx = document.getElementById('sbtec');
     ttx.style.textAlign = 'center'
     ttx.style.marginLeft = '1px'
-    ttx.innerHTML = '/*Passe o mouse em uma das imagens para saber sobre a tecnologia.*/'
+    ttx.innerHTML = `${realtx}`
 }
 
 
@@ -162,7 +172,7 @@ function sobrepynor(){
     const ttx = document.getElementById('sbtec');
     ttx.style.textAlign = 'center'
     ttx.style.marginLeft = '1px'
-    ttx.innerHTML = '/*Passe o mouse em uma das imagens para saber sobre a tecnologia.*/'
+    ttx.innerHTML = `${realtx}`
 }
 
 
@@ -180,7 +190,7 @@ function sobrejsnor(){
     const ttx = document.getElementById('sbtec');
     ttx.style.textAlign = 'center'
     ttx.style.marginLeft = '1px'
-    ttx.innerHTML = '/*Passe o mouse em uma das imagens para saber sobre a tecnologia.*/'
+    ttx.innerHTML = `${realtx}`
 }
 /* Funções para Meus Projetos */
 
