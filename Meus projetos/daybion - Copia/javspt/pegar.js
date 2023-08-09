@@ -1,3 +1,15 @@
+/* Habilidades */
+/* Função para os celulares e tablets */
+function atualizarHAb(){
+    var txtHab = document.getElementById('sbtec')
+    if (window.innerWidth <= 700){
+        txtHab.innerHTML = '/*Segure uma das imagens para saber sobre as tecnologias*/'}else{
+            txtHab.innerHTML = '/*Passe o mouse em uma das imagens para saber sobre a tecnologia.*/'
+        }
+        window.onload = atualizarHAb;
+        window.
+}
+
 /* Projetos de cursos */
 function music(){
     /* Função principal para mudar img com btn */
