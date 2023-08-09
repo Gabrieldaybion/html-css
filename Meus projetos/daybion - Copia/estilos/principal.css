@@ -245,7 +245,6 @@ article{
 }
 #btn:hover{
     width: 68px;
-    
 }
 section{
     
@@ -393,7 +392,8 @@ section{
     background-color: transparent;
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 1px 5px #000000
+    box-shadow: 1px 1px 5px #000000;
+    border-radius: 12px;
 
 }
 .realcima{
@@ -425,13 +425,14 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid  #000000;
-    border-bottom: 1px solid  #000000;
+    
+
 
 }
 .realimg{
     width:80%;
-    height:97%;    
+    height:97%; 
+    border-radius: 12px;   
 
 }
 
@@ -440,6 +441,7 @@ section{
 #myimg{
     width: 100%;
     height: 100%;
+    border-radius: 12px;
 
 }
 
@@ -447,8 +449,18 @@ section{
 
 
 footer{
-    
+    display: flex;
+    flex-direction: column;
+    height: 49px;
+    align-items: center;
     grid-area:f;
-    background-color: #29353c;
+    background-color: #aac7d8;
 
+}
+footer > p{
+    color: #64707a;
+    font-size: 0.9rem;
+}
+#txtfinal{
+    font-size: 0.5rem;
 }

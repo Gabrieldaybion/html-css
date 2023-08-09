@@ -1,21 +1,52 @@
 /* Projetos de cursos */
 function music(){
+    /* Função principal para mudar img com btn */
     console.log('Imagem music carregada.')
     const img = document.getElementById("fotinx");
     const al = document.getElementById('alink');
     al.setAttribute('href', 'https://gabrieldaybion.github.io/html-css/desafio/produto-pedido/index.html');
     img.setAttribute('src', './imagens/app-musica.PNG');
     img.style.height ='300px'
+
+    /* Função criada para quando em certo tamanho de tela pequena */
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+    function mudança(evento){
+        if(evento.matches){
+            img.style.height = '250px'
+        }
+        else{
+            img.style.height ='300px'
+        }
+    }
+    mediamusic.addListener(mudança);
+    mudança(mediamusic);
+
+
 }
 
 function perf(){
+    /* Função principal para mudar img com btn */
     console.log('Imagem perfume carregada');
     const img = document.getElementById('fotinx');
     const al = document.getElementById('alink');
     al.setAttribute('href', 'https://gabrieldaybion.github.io/html-css/desafio/card-product/index.html');
     img.setAttribute('src', './imagens/Site-perfume.PNG');
+    /* Função criada para quando em certo tamanho de tela pequena */
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+    function mudança(evento){
+        if(evento.matches){
+            img.style.height = '250px'
+        }
+        else{
+            img.style.height ='300px'
+        }
+    }
+    mediamusic.addListener(mudança);
+    mudança(mediamusic);
+
 }
 function login(){
+    /* Função principal para mudar img com btn */
     console.log('Imagem login carregada');
     const img = document.getElementById('fotinx');
     const al = document.getElementById('alink');
@@ -25,9 +56,24 @@ function login(){
     img.style.height = '300px';
     img.style.width =  '100%'
 
+    /* Função criada para quando em certo tamanho de tela pequena */
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+    function mudança(evento){
+        if(evento.matches){
+            img.style.height = '250px'
+        }
+        else{
+            img.style.height ='300px'
+        }
+    }
+    mediamusic.addListener(mudança);
+    mudança(mediamusic);
+
+
 }
 
 function cordel(){
+    /* Função principal para mudar img com btn */
     console.log('Imagem condel carregada');
     const img = document.getElementById('fotinx');
     const al = document.getElementById('alink');
@@ -35,6 +81,19 @@ function cordel(){
     img.setAttribute('src', './imagens/cordel.PNG');
     img.style.height ='300px';
     img.style.transition ='1';
+    
+    /* Função criada para quando em certo tamanho de tela pequena */
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+    function mudança(evento){
+        if(evento.matches){
+            img.style.height = '250px'
+        }
+        else{
+            img.style.height ='300px'
+        }
+    }
+    mediamusic.addListener(mudança);
+    mudança(mediamusic);
 
 
 }
