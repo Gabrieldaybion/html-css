@@ -103,7 +103,7 @@ function cordel(){
     
     /* Função criada para quando em certo tamanho de tela pequena */
     const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
-
+7
     const mediaTablet = window.matchMedia("(min-width: 410px) and (max-width: 400px)");
 
     function mudança(evento){
