@@ -27,7 +27,10 @@ function music(){
     img.style.height ='300px'
 
     /* Função criada para quando em certo tamanho de tela pequena */
-    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 850px)");
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+
+    const mediaTablet = window.matchMedia("(min-width: 410px) and (max-width: 890px)");
+
     function mudança(evento){
         if(evento.matches){
             img.style.height = '250px'
@@ -36,9 +39,19 @@ function music(){
             img.style.height ='300px'
         }
     }
+    function mudanca_tablet(event){
+            if (event.matches){
+                img.style.height = '350px'
+            }
+            else{
+                img.style.height = '250px'
+            }
+    }
+    mediaTablet.addListener(mudanca_tablet);
+    
     mediamusic.addListener(mudança);
     mudança(mediamusic);
-
+    mudanca_tablet(mediaTablet)
 
 }
 
@@ -49,9 +62,12 @@ function perf(){
     const al = document.getElementById('alink');
     al.setAttribute('href', 'https://gabrieldaybion.github.io/html-css/desafio/card-product/index.html');
     img.setAttribute('src', './imagens/Site-perfume.PNG');
+
     /* Função criada para quando em certo tamanho de tela pequena */
-    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 850px)");
-    
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+
+    const mediaTablet = window.matchMedia("(min-width: 410px) and (max-width: 890px)");
+
     function mudança(evento){
         if(evento.matches){
             img.style.height = '250px'
@@ -60,9 +76,19 @@ function perf(){
             img.style.height ='300px'
         }
     }
+    function mudanca_tablet(event){
+            if (event.matches){
+                img.style.height = '350px'
+            }
+            else{
+                img.style.height = '250px'
+            }
+    }
+    mediaTablet.addListener(mudanca_tablet);
+    
     mediamusic.addListener(mudança);
     mudança(mediamusic);
-
+    mudanca_tablet(mediaTablet)
 }
 function login(){
     /* Função principal para mudar img com btn */
@@ -76,7 +102,10 @@ function login(){
     img.style.width =  '100%'
 
     /* Função criada para quando em certo tamanho de tela pequena */
-    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 850px)");
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+
+    const mediaTablet = window.matchMedia("(min-width: 410px) and (max-width: 890px)");
+
     function mudança(evento){
         if(evento.matches){
             img.style.height = '250px'
@@ -85,9 +114,19 @@ function login(){
             img.style.height ='300px'
         }
     }
+    function mudanca_tablet(event){
+            if (event.matches){
+                img.style.height = '350px'
+            }
+            else{
+                img.style.height = '250px'
+            }
+    }
+    mediaTablet.addListener(mudanca_tablet);
+    
     mediamusic.addListener(mudança);
     mudança(mediamusic);
-
+    mudanca_tablet(mediaTablet)
 
 }
 
@@ -104,7 +143,7 @@ function cordel(){
     /* Função criada para quando em certo tamanho de tela pequena */
     const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
 
-    const mediaTablet = window.matchMedia("(min-width: 410px) and (max-width: 400px)");
+    const mediaTablet = window.matchMedia("(min-width: 410px) and (max-width: 890px)");
 
     function mudança(evento){
         if(evento.matches){
@@ -114,8 +153,19 @@ function cordel(){
             img.style.height ='300px'
         }
     }
+    function mudanca_tablet(event){
+            if (event.matches){
+                img.style.height = '350px'
+            }
+            else{
+                img.style.height = '250px'
+            }
+    }
+    mediaTablet.addListener(mudanca_tablet);
+    
     mediamusic.addListener(mudança);
     mudança(mediamusic);
+    mudanca_tablet(mediaTablet)
 
 
 }

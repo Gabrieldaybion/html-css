@@ -230,7 +230,7 @@
     }
     #fotinx{
         width: 100%;
-        height: 250px;
+        height: 350px;
         transition: 1s;
         border-radius: 20px 0px 0px 20px ;
     }
@@ -253,6 +253,36 @@
         width: 68px;
     }
     /* Habilidades */
+    .habprinc{
+        width: 74vw;
+        height: 350px;
+        background-color: rgba(68, 87, 109, 0.127);
+        margin-bottom: 40px;
+    }
+    .hab{
+        width: 74vw;
+        height: 300px;
+        background-color: rgba(104, 128, 141, 0.147);
+        display: flex;
+        flex-direction: row;
+    
+        
+    }
+    .habimg{
+        width: 60%;
+        background-color: rgba(170, 199, 216, 0.377);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px 10px;
+    
+    }
+    .habimagens{
+        width: 84px;
+        height: 84px;
+    }    
     .habimagens{
         width: 74px;
         height: 74px;   
@@ -276,8 +306,8 @@
     }
     /* My projetos */
     .Projetos{
-        width: 98vw;
-        height: 490px;
+        width: 78vw;
+        height: 990px;
         background-color: transparent;
         display: flex;
         flex-direction: column;
@@ -290,7 +320,7 @@
     }
     
     .pincireal{
-        width: 100%;
+        width: 90%;
         height: 90%;
         background-color: transparent;
         display: flex;
@@ -333,7 +363,7 @@
     
     }
     .realimg{
-        width:97%;
+        width:87%;
         height:97%; 
         border-radius: 12px;   
     
