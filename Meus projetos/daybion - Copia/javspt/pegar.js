@@ -27,9 +27,11 @@ function music(){
     img.style.height ='300px'
 
     /* Função criada para quando em certo tamanho de tela pequena */
-    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 469px)");
 
-    const mediaTablet = window.matchMedia("(min-width: 410px) and (max-width: 890px)");
+    const mediaTablet = window.matchMedia("(min-width: 470px) and (max-width: 850px)");
+     
+    const mediaPc = window.matchMedia("(min-width: 851px) and (max-width: 2400px)")
 
     function mudança(evento){
         if(evento.matches){
@@ -47,11 +49,18 @@ function music(){
                 img.style.height = '250px'
             }
     }
+    function mudanca_pc(evets){
+        if (evets.matches){
+            img.style.height = '480px'
+        }
+        
+    }
     mediaTablet.addListener(mudanca_tablet);
-    
+    mediaPc.addListener(mudanca_pc);
     mediamusic.addListener(mudança);
     mudança(mediamusic);
-    mudanca_tablet(mediaTablet)
+    mudanca_tablet(mediaTablet);
+    mudanca_pc(mediaPc)
 
 }
 
@@ -64,9 +73,11 @@ function perf(){
     img.setAttribute('src', './imagens/Site-perfume.PNG');
 
     /* Função criada para quando em certo tamanho de tela pequena */
-    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 469px)");
 
-    const mediaTablet = window.matchMedia("(min-width: 410px) and (max-width: 890px)");
+    const mediaTablet = window.matchMedia("(min-width: 470px) and (max-width: 850px)");
+     
+    const mediaPc = window.matchMedia("(min-width: 851px) and (max-width: 2400px)")
 
     function mudança(evento){
         if(evento.matches){
@@ -84,11 +95,18 @@ function perf(){
                 img.style.height = '250px'
             }
     }
+    function mudanca_pc(evets){
+        if (evets.matches){
+            img.style.height = '480px'
+        }
+        
+    }
     mediaTablet.addListener(mudanca_tablet);
-    
+    mediaPc.addListener(mudanca_pc);
     mediamusic.addListener(mudança);
     mudança(mediamusic);
-    mudanca_tablet(mediaTablet)
+    mudanca_tablet(mediaTablet);
+    mudanca_pc(mediaPc)
 }
 function login(){
     /* Função principal para mudar img com btn */
@@ -102,9 +120,11 @@ function login(){
     img.style.width =  '100%'
 
     /* Função criada para quando em certo tamanho de tela pequena */
-    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 469px)");
 
-    const mediaTablet = window.matchMedia("(min-width: 410px) and (max-width: 890px)");
+    const mediaTablet = window.matchMedia("(min-width: 470px) and (max-width: 850px)");
+     
+    const mediaPc = window.matchMedia("(min-width: 851px) and (max-width: 2400px)")
 
     function mudança(evento){
         if(evento.matches){
@@ -122,11 +142,18 @@ function login(){
                 img.style.height = '250px'
             }
     }
+    function mudanca_pc(evets){
+        if (evets.matches){
+            img.style.height = '480px'
+        }
+        
+    }
     mediaTablet.addListener(mudanca_tablet);
-    
+    mediaPc.addListener(mudanca_pc);
     mediamusic.addListener(mudança);
     mudança(mediamusic);
-    mudanca_tablet(mediaTablet)
+    mudanca_tablet(mediaTablet);
+    mudanca_pc(mediaPc)
 
 }
 
@@ -141,9 +168,11 @@ function cordel(){
     img.style.transition ='1';
     
     /* Função criada para quando em certo tamanho de tela pequena */
-    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 400px)");
+    const mediamusic = window.matchMedia("(min-width: 310px) and (max-width: 469px)");
 
-    const mediaTablet = window.matchMedia("(min-width: 410px) and (max-width: 890px)");
+    const mediaTablet = window.matchMedia("(min-width: 470px) and (max-width: 850px)");
+     
+    const mediaPc = window.matchMedia("(min-width: 851px) and (max-width: 2400px)")
 
     function mudança(evento){
         if(evento.matches){
@@ -161,11 +190,18 @@ function cordel(){
                 img.style.height = '250px'
             }
     }
+    function mudanca_pc(evets){
+        if (evets.matches){
+            img.style.height = '480px'
+        }
+        
+    }
     mediaTablet.addListener(mudanca_tablet);
-    
+    mediaPc.addListener(mudanca_pc);
     mediamusic.addListener(mudança);
     mudança(mediamusic);
-    mudanca_tablet(mediaTablet)
+    mudanca_tablet(mediaTablet);
+    mudanca_pc(mediaPc)
 
 
 }
