@@ -1,0 +1,125 @@
+@charset "UTF-8";
+:root{
+    --tomato:rgb(255, 98, 87);
+    --Dark-Slate-Grey: rgb(36, 39, 66);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: rgb(146, 148, 160);
+    --White: rgb(255, 255, 255);
+
+}
+@font-face {
+    font-family:'roboto';
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family:'roboto2';
+    src: url(../fonts/Roboto-Regular.ttf);
+
+}
+*{
+   margin: 0px; 
+   padding: 0px;
+   box-sizing: border-box;
+}
+body /* Corpo */{
+    background-color: var(--Charcoal-Grey);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+main/* Todo o arquivo */{
+    width: 50vw;
+    height:67vh;
+    background-color: var(--White);
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+
+}
+/* Parte do txt */
+.text{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.realtxt{
+    height: 90%;
+    width: 80%;
+    background-color: white;
+    
+}
+.realtxt h1{
+    font-family: roboto2;
+    font-size: 2.2em;
+    color: var(--Dark-Slate-Grey);
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.realtxt #pz{
+    font-size: 0.8em;
+    color: var(--Charcoal-Grey) ;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: roboto;
+}
+.realtxt p{
+    font-size: 0.8em;
+    color: var(--Charcoal-Grey) ;
+    margin-top: 5px;
+    font-family: roboto;
+}
+/* Configurações para o p junto a img  */
+.pimg{
+    display: flex;
+}
+.pimg img {
+    margin-right: 12px;
+    width: 17px;
+}
+#pimgf{
+    margin-bottom: 45px;
+}
+
+.img-princ /* imagem principal */{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-princ img{
+    width: 280px;
+}
+/* Configuração do formulario */
+#txtemail{
+    border-radius: 7px;
+    padding: 12px;
+    border: 1px solid rgb(90, 87, 87);
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+#btnemail{
+    background-color: var(--Dark-Slate-Grey);
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+    width: 92%;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#btnemail:hover{
+    background-color: var(--tomato);
+}

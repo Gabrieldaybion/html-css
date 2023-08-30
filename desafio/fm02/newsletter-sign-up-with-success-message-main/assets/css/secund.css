@@ -1,0 +1,79 @@
+@charset "UTF-8";
+:root{
+    --tomato:rgb(255, 98, 87);
+    --Dark-Slate-Grey: rgb(36, 39, 66);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: rgb(146, 148, 160);
+    --White: rgb(255, 255, 255);
+
+}
+@font-face {
+    font-family:'roboto';
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family:'roboto2';
+    src: url(../fonts/Roboto-Regular.ttf);
+
+}
+*{
+   margin: 0px; 
+   padding: 0px;
+   box-sizing: border-box;
+}
+body{
+    background-color: var(--Charcoal-Grey);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 25vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    width: 50px;
+    margin-bottom: 15px;
+}
+.txt{
+   width: 22vw;
+   height: 40vh;
+}
+.txt h1{
+    font-family: roboto2;
+    color: var(--Dark-Slate-Grey);
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+.txt p{
+    font-family: roboto2;
+    color: var(--Charcoal-Grey);
+    font-size: 0.8em;
+    margin-bottom: 17px;
+}
+#pemail{
+    color: var(--Dark-Slate-Grey);
+}
+.msg{
+    background-color: var(--Dark-Slate-Grey);
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+.msg:hover{
+    background-color: var(--tomato);
+    cursor: pointer;
+}
