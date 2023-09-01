@@ -172,8 +172,6 @@
     
 }
 
-
-
 /* Configuração tablet */
 @media screen and (min-width:510px) and (max-width:850px){
     .lin2 > a{
@@ -380,7 +378,7 @@
     
 }
  /* MEdia para computadores */
-    @media screen and (min-width:851px) and (max-width:2400px) {
+@media screen and (min-width:851px) and (max-width:2400px) {
 
         #ftfox{
             width: 250px;

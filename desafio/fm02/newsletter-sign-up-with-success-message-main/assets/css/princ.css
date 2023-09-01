@@ -97,8 +97,13 @@ main/* Todo o arquivo */{
     justify-content: center;
     align-items: center;
 }
-.img-princ img{
-    width: 280px;
+div#imagem{
+    width: 93%;
+    height: 93%;
+    background-image: url(../images/img-pc.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 12px 12px;
 }
 /* Configuração do formulario */
 #txtemail{
