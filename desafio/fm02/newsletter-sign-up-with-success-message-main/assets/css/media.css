@@ -5,8 +5,8 @@
 /* Celular pequeno*/
 @media screen and (min-width:310px) and (max-width:350px){
     main/* Todo o arquivo */{
-        width: 89vw;
-        height:98vh;
+        width: 100vw;
+        height:100vh;
         display: flex;
         flex-direction: column-reverse;
         border-radius: 12px;
@@ -14,7 +14,7 @@
     }
     /* Parte do txt */
     .text{
-        width: 100%;
+        width: 100vw;
         height: 75vh;
         display: flex;
         flex-direction: row;
