@@ -1,0 +1,171 @@
+/* Celular pequeno*/
+@media screen and (min-width:310px) and (max-width:350px){
+    
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    width: 50px;
+    margin-bottom: 15px;
+}
+.txt{
+   width: 92vw;
+   height: 100vh;
+}
+.txt h1{
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+}
+.txt p{
+    font-family: roboto2;
+    color: var(--Charcoal-Grey);
+    font-size: 0.9em;
+    margin-bottom: 87px;
+}
+
+.msg{
+    background-color: var(--Dark-Slate-Grey);
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+}
+/* Celular normal */
+@media screen and (min-width:351px) and (max-width:400px){
+    main{
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    img{
+        width: 50px;
+        margin-bottom: 15px;
+    }
+    .txt{
+       width: 92vw;
+       height: 97vh;
+    }
+    .txt h1{
+        font-size: 2.2rem;
+        margin-bottom: 25px;
+    }
+    .txt p{
+        font-family: roboto2;
+        color: var(--Charcoal-Grey);
+        font-size: 0.9em;
+        margin-bottom: 147px;
+    }
+    
+    .msg{
+        background-color: var(--Dark-Slate-Grey);
+        color: white;
+        padding: 12px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 0.9em;
+        transition: 0.5s;
+    }
+}
+/* Celular grande */
+@media screen and (min-width:401px) and (max-width:480px){
+    main{
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    img{
+        width: 50px;
+        margin-bottom: 15px;
+    }
+    .txt{
+       width: 92vw;
+       height: 92vh;
+    }
+    .txt h1{
+        font-size: 2.2rem;
+        margin-bottom: 25px;
+    }
+    .txt p{
+        font-family: roboto2;
+        color: var(--Charcoal-Grey);
+        font-size: 1.1em;
+        margin-bottom: 197px;
+    }
+    
+    .msg{
+        background-color: var(--Dark-Slate-Grey);
+        color: white;
+        padding: 12px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 1.2em;
+        transition: 0.5s;
+    }
+}
+
+/* Configuração tablet */
+@media screen and (min-width:481px) and (max-width:850px){
+    main{
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    img{
+        width: 50px;
+        margin-bottom: 15px;
+    }
+    .txt{
+       width: 92vw;
+       height: 92vh;
+    }
+    .txt h1{
+        font-size: 2.2rem;
+        margin-bottom: 25px;
+    }
+    .txt p{
+        font-family: roboto2;
+        color: var(--Charcoal-Grey);
+        font-size: 1.1em;
+        margin-bottom: 197px;
+    }
+    
+    .msg{
+        background-color: var(--Dark-Slate-Grey);
+        color: white;
+        padding: 12px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 1.2em;
+        transition: 0.5s;
+    }
+}

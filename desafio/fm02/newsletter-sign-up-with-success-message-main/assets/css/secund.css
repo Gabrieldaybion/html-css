@@ -17,11 +17,14 @@
     src: url(../fonts/Roboto-Regular.ttf);
 
 }
+
 *{
    margin: 0px; 
    padding: 0px;
    box-sizing: border-box;
 }
+
+
 body{
     background-color: var(--Charcoal-Grey);
     height: 100vh;
@@ -63,6 +66,9 @@ img{
 }
 #pemail{
     color: var(--Dark-Slate-Grey);
+    display: inline;
+    padding: 0px;
+    
 }
 .msg{
     background-color: var(--Dark-Slate-Grey);
