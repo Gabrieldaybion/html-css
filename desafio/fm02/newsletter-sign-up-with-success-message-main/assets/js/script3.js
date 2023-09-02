@@ -1,3 +1,11 @@
-var urlParams = new URLSearchParams(window.location.search);
-var msg = urlParams.get('var');
-console.log(`Variavel fora da função ${msg}`);
+/* Parte via url */
+
+function obterMsgURL(nome){
+    const parametros = new URLSearchParams(window.location.search);
+    return parametros.get(nome);
+}
+
+const mensagem = obterMsgURL("mensagem");
+console.log(`Email enviado ${mensagem}`)
+const insirir = document.getElementById('pemail')
+insirir.innerHTML = mensagem 

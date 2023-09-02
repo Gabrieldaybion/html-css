@@ -6,11 +6,22 @@ function enviarMsg(){
     var ms = document.getElementById('txtemail');
     msg = String(ms.value);
     console.log(msg)
-    return msg
+    
+    if (msg == ""){
+        window.alert('Desculpe insira um email para continuar')
+        
+    }else{
+        window.location.href = "confirm.html"
+        window.location.href = `confirm.html?mensagem=${msg}`;
+    }
+   
     
 };
+
 btn.onclick = enviarMsg
-window.Location.href = "" + msg;
+/* Iniciando para pegar variavel msg */
+console.log('Iniciado o app:')
+
 /* TODAS as tentativas deram errado, tentar usar o arquivo.json */
 
 
