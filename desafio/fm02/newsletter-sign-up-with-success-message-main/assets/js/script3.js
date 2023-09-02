@@ -6,6 +6,6 @@ function obterMsgURL(nome){
 }
 
 const mensagem = obterMsgURL("mensagem");
-console.log(`Email enviado ${mensagem}`)
+console.log(`Email enviado para ${mensagem}`)
 const insirir = document.getElementById('pemail')
 insirir.innerHTML = mensagem 
