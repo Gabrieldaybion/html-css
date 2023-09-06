@@ -106,6 +106,10 @@ div#imagem{
     border-radius: 0px 0px 12px 12px;
 }
 /* Configuração do formulario */
+#emaillabel{
+    color: red;
+    margin-left: 135px;
+}
 #txtemail{
     border-radius: 7px;
     padding: 12px;
