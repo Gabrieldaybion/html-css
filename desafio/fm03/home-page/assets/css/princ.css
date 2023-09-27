@@ -1,0 +1,197 @@
+@charset "UTF-8";
+:root{
+    --Off-white: rgb(255, 253, 250);
+    --Grayish-blue: rgb(197, 198, 206);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: rgb(0, 0, 39);
+    --Soft-orange: rgb(233, 171, 83);
+    --Soft-red: rgb(241, 94, 80);
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family:'roboto2';
+    src: url(../fonts/static/Inter-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family:'roboto3';
+    src: url(../fonts/static/Inter-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family:'roboto4';
+    src: url(../fonts/static/Inter-Regular.ttf);
+    font-weight: 400;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100;
+    background-color: var(--Off-white);
+   
+
+}
+
+/* Eu espero que você encontre alguem que leia a sua alma, para que você não tenha que viver o resto da sua vida como um tradutor. */
+
+/* Cabeçalho */
+header{
+    grid-area: h;
+    display: flex;
+    flex-direction: row;
+    
+}
+.cabecalho{
+    width: 100vw;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header > h1{
+    color: var(--Very-dark-blue);
+    font-family: 'roboto3';
+}
+nav{
+    margin-top: 12px;
+}
+.linkmenu{
+    text-decoration: none;
+    margin-left: 19px;
+    color:var(--Dark-grayish-blue);
+}
+
+
+
+/* Principal */
+main{ 
+    display: flex;
+   justify-content: center;
+    
+
+    
+
+}
+.principal{
+    margin-top: 50px;
+    width: 70vw;
+}
+.tela{
+   display: flex;
+   flex-direction: row;
+}
+.caixa{
+ width: 65vw;
+
+}
+.pois{
+    display: flex;
+    margin-top: 19px;
+}
+#future{
+    color: var(--Very-dark-blue);
+    font-family: 'roboto3';
+    font-size: 2.3rem;
+    width: 40%;
+}
+article{
+    width: 60%;
+}
+article > p{
+    color: var(--Dark-grayish-blue);
+    margin-bottom: 39px;
+}
+article > a{
+    text-decoration: none;
+    background-color: var(--Soft-red);
+    color: var(--Off-white);
+    padding: 9px 35px;
+    margin-top: 92px;
+    
+}
+menu{
+   width: 35vw;
+   background-color: var(--Very-dark-blue);
+   display: flex;
+   justify-content: center;
+}
+aside{
+    width: 80%;
+}
+aside > h2{
+    margin-top: 16px;
+    color: var(--Soft-orange);
+    font-family: 'roboto';
+    margin-bottom: 16px;
+}
+aside > h3{
+    color: var(--Off-white);
+    font-family: 'robot3';
+    margin-bottom: 10px;
+}
+aside > p{
+    color: var(--Dark-grayish-blue);
+    font-family: 'roboto2';
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    
+}
+#pzin{
+    border-bottom: solid 1px white;
+    padding-bottom: 12px;
+}
+
+
+#img-web{
+    width: 600px;
+   
+}
+.bloc{
+    margin-top: 40px;
+    display: flex;
+}
+.blocos{
+    display: flex;
+   margin-right: 12px;
+   background-color: blue;
+   width: 340px;
+   height: 200px;
+}
+.blocos2{
+    width: 40%;
+    background-color: rebeccapurple;
+    background-image: url(../images/image-retro-pcs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocos3{
+    width: 60%; 
+    background-color: brown;
+}
+.blocos3 > h4{
+    color: rgba(128, 128, 128, 0.753);
+    font-size: 2rem;
+    font-family: 'roboto';
+}
+.blocos3 > h5{
+    font-size: 1.0em;
+    margin-bottom: 12px;
+}
+.blocos3 > p{
+    color: rgba(128, 128, 128, 0.897);
+}
+footer{
+    display: flex;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    
+}
