@@ -1,13 +1,13 @@
-function typeWrite(elemento){
+export  function typeWrite(elemento){
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = '';
     textoArray.forEach((letra,i) => {
         setTimeout(()=> 
             elemento.innerHTML += letra, 319 * i)
+            return 'função funcionando'
     } );
 }
 
 
-const titulo = document.querySelector('h1#tt');
 
-typeWrite(titulo);
+
