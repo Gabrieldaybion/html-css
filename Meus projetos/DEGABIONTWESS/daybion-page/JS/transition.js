@@ -42,6 +42,18 @@ function verifica_js(){
         console.log('Mouse saiu');
         txt.style.display = 'none';
     })
+} 
+function verifica_git(){
+    var txt = document.getElementById('s-js-txt');
+    var scaixa = document.getElementById('s-caixa3');
+    scaixa.addEventListener('mouseenter',function(){
+        console.log('Mouse em cima do elemento');
+        txt.style.display = 'inline'
+    })
+    scaixa.addEventListener('mouseleave',function(){
+        console.log('Mouse saiu');
+        txt.style.display = 'none';
+    })
 }
 
 /* Para escrever o Header */
