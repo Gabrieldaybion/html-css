@@ -50,7 +50,9 @@
     .main{
         width: 79vw;
     }
-
+    .caixa-txt > p{
+        font-size: 0.6rem;
+    }
 }
 /*  */
 /*  */
