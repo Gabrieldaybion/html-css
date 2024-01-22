@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* Arquivos para medias */
+
+/* celular pequeno */
+@media screen and (min-width:310px) and (max-width:350px){
+    .main{
+        width: 79vw;
+        height: 87vh;
+    }
+    img{
+        width: 60px;
+    }
+    .caixa-txt > h1{
+        font-size: 1.1rem;
+        margin: 0px 0px 5px 0px;
+    }
+    .caixa-txt > h2{
+        font-size: 0.6rem;
+    }
+    .caixa-txt > p{
+        font-size: 0.6rem;
+    }
+    a.links{
+        
+        font-size: 0.8rem;
+    
+        
+        width: 80%;
+    
+        border-radius: 9px;
+        margin-bottom: 10px;
+        padding: 6px;
+    
+      
+    }
+
+}
+/* Cecular normal */
+@media screen and (min-width:351px) and (max-width:400px){
+    .main{
+        width: 79vw;
+    }
+}
+
+/* Celular grande */
+@media screen and (min-width:401px) and (max-width:480px){
+    .main{
+        width: 79vw;
+    }
+
+}
+/*  */
+/*  */
