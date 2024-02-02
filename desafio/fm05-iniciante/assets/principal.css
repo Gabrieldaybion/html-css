@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:grande;
+    src: url(https://fonts.google.com/specimen/League+Spartan);
+    font-weight: 700;
+}
+@font-face {
+    font-family:medio;
+    src: url(https://fonts.google.com/specimen/League+Spartan);
+    font-weight: 500;
+}
+@font-face {
+    font-family:pequeno;
+    src: url(https://fonts.google.com/specimen/League+Spartan);
+    font-weight: 400;
+}
+*{  /* Default/Padrão */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* Colors */
+    --Dark_Magenta: hsl(300, 43%, 22%);
+    --Magenta:hsl(303, 10%, 53%);
+    --Grayish: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+    --Pink: hsl(333, 80%, 67%);  
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+.main-cima{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 40%;
+    background-color: aquamarine;
+}
+.cima01{
+    width: 50%;
+    background-color: rgb(189, 112, 11);
+}
+.cima01 p{
+    color: hsl(303, 10%, 53%);
+    font-size: 1.4em;
+}
+.cima02{
+    display: flex;
+    flex-direction: column;
+    
+    width: 50%;
+    background-color: rgb(177, 138, 88);
+}
+.stars-main{
+    margin-top: 20px;
+}
+#um{
+    margin-left: 10px;
+}
+#dois{
+    margin-left: 40px;
+}
+#tres{
+    margin-left: 70px;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    background-color: hsl(303, 10%, 53%);
+    margin-bottom: 25px;
+    border-radius: 7px;
+    padding: 4px;
+
+}
+.stars img {
+    width: 5%;
+    height: 7%;
+    margin-right: 7px;
+}
+.stars p{
+    color:hsl(300, 43%, 22%); 
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.main-cima h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    color:hsl(300, 43%, 22%); 
+    font-size: 3.8em;
+    margin: 0px 0px 17px 0px ;
+
+}
+.main-baixo{
+    width: 90%;
+    height: 40%;
+    background-color: rgb(60, 156, 124);
+}

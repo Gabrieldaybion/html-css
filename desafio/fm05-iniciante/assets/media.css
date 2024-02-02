@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Arquivos para medias */
+
+/* celular pequeno */
+@media screen and (min-width:310px) and (max-width:350px){
+
+}
+/* Cecular normal */
+@media screen and (min-width:351px) and (max-width:400px){
+    
+}
+
+/* Celular grande */
+@media screen and (min-width:401px) and (max-width:480px){
+   
+}
+
+/*  */
