@@ -1,0 +1,65 @@
+/* Principal model. */
+:root{
+    --cor:#261824;
+    --cor2:#8A188C;
+    --cor3:#961BA6;
+    --cor4:#443A31;
+    --cor5:#5A0FA6;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#961ba6a2;
+}
+header{
+    background-color: #443A31;
+    padding: 30px;
+    
+    height:25vh ;
+
+}
+.head-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagens/images\ \(23\).png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 46%;
+    
+    
+
+}
+.escreve{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Escreve inicio */
+h1#tt{
+    font-family: 'Coustard', serif;
+    color: #8A188C;
+
+}
+h1#tt::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+@keyframes pisca {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/* Escreve final */
